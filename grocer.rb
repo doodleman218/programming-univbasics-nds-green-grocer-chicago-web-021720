@@ -80,7 +80,7 @@ def checkout(cart, coupons)
   new_cart = []
   coupon = apply_coupons(cart, coupons)
   discount = apply_clearance(cart)
-  new_cart << consolidate_cart(cart)
+  consolidate_cart(cart)
 
   
   
